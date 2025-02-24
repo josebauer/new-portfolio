@@ -8,7 +8,7 @@ export default function FirstSection() {
     <section className="d-flex align-items-center justify-content-center">
       <Container className="d-flex flex-column justify-content-center align-items-center">
         <p className={styles.name}>JOSÉ HENRIQUE BAUER</p>
-        <p className={styles.title}>DESENVOLVEDOR WEB</p>
+        <h1 className={styles.title}>DESENVOLVEDOR WEB</h1>
         <Container className="d-flex gap-3 gap-sm-4 gap-md-5 justify-content-center align-items-center">
           <Link className={styles.contactIcon} target="_blank" href="https://github.com/josebauer" >
             <Image src="/icons/github-logo.svg" alt="GitHub Logo" width={30} height={30} />

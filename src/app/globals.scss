@@ -14,3 +14,17 @@ body {
 section {
   min-height: 100vh;
 }
+
+// Scroll
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 40px;
+}
