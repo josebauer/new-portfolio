@@ -8,3 +8,21 @@
 .navLink {
   font-weight: 600;
 }
+
+.navIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-top: 1px solid #000;
+  padding: 8px 0;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .navIcons {
+    border: none;
+    padding: 0;
+    margin: 0;    
+  }
+}

@@ -1,0 +1,88 @@
+.title {
+  font-family: 'Fugaz One';
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.title,
+.name {
+  font-family: 'Fugaz One';
+  color: #000;
+  margin: 0;
+  text-align: center;
+}
+
+.name {
+  font-size: .75rem;
+}
+
+.contactIcon {
+  transition: .5s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .title {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+    
+  .name {
+    font-size: .75rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+  }  
+
+  .contactIcon {
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+  
+  .name {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .contactIcon {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

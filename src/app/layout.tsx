@@ -1,7 +1,7 @@
 import "./globals.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import { Fugaz_One, Geist, Geist_Mono } from "next/font/google"
+import { Fugaz_One } from "next/font/google"
 
 import Header from "@/components/header/Header";
 import type { Metadata } from "next";
@@ -11,9 +11,8 @@ const fugazOne = Fugaz_One({
   weight: '400'
 })
 
-
 export const metadata: Metadata = {
-  title: "Portfólio",
+  title: "Portfólio | José H Bauer",
   description: "Projetos - José H Bauer",
 };
 
