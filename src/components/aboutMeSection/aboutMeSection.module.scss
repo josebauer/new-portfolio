@@ -1,0 +1,45 @@
+.aboutMe {
+  font-family: 'Fugaz One';
+  font-size: 1.75rem;
+  text-align: center;
+  color: #000;
+}
+
+.textAboutMe {
+  text-align: justify;
+  max-width: 900px;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+.image {
+  width: 150;
+  height: 150;
+  border-radius: 50%;
+}
+
+// Media Query
+@media screen and (min-width: 768px) {
+  .aboutMe {
+    font-size: 2rem;
+  }
+
+  .textAboutMe {
+    font-size: 1.25rem;
+    padding: 2rem;
+  }
+
+  .image {
+    width: 200;
+    height: 200;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    width: 250;
+    height: 250;
+  }
+}
