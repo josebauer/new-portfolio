@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "name": "Sistema para Imobiliárias",
+    "shortDescription": "Um sistema web completo, com backend e frontend, desenvolvido para uso em imobiliárias. Meu projeto de maior complexidade desenvolvido até então.",
+    "longDescription": "",
+    "technologiesUsed": [
+      "Next.js",
+      "TypeScript/TSX",
+      "Sass",
+      "Bootstrap",
+      "axios",
+      "Node.js",
+      "Express",
+      "Sequelize",
+      "AdminJS",
+      "PostgreSQL",
+      "Bcrypt",
+      "Nodemailer"
+    ],
+    "features": [
+      "Faz conexões com os endpoints da API",
+      "Registro e login de usuários",
+      "Alteração de dados e senha do usuário",
+      "Recuperação de senha",
+      "Filtrar imóveis pelas suas características",
+      "Adicionar imóveis aos favoritos",
+      "Realizar agendamentos de visitas à imóveis",
+      "Compartilhar o link do imóvel",
+      "Gerenciamento da Imobiliária pelo AdminJS, com cadastramento, atualização e exclusão de usuários, imóveis, categorias e agendamento de visitas",
+      "Endpoints da API para conexão com o front-end",
+      "Autenticação"
+    ],
+    "imageUrl": "",
+    "gitHubUrl": [
+      "https://github.com/josebauer/real-estate-website_backend",
+      "https://github.com/josebauer/real-estate-website_frontend"
+    ],
+    "demonstrationUrl": ""
+  },
+  {
+    "id": 2,
+    "name": "Gestor de Estoque",
+    "shortDescription": "Programa Web Gerenciador de Estoque. Desenvolvido com React, JS, Sass e Bootstrap",
+    "longDescription": "Um programa web gerenciador de estoque, no qual é possível adicionar novos itens ao estoque, inserindo sua quantidade, valor, categoria e descrição. Além da opção de ver, atualizar e excluir cada item.",
+    "technologiesUsed": [
+      "React",
+      "JavaScript",
+      "Sass",
+      "Bootstrap"
+    ],
+    "features":[
+      "Card com número de diversidade de itens",
+      "Card com número de itens totais no inventário",
+      "Card com número de itens acabando (menos de 10)",
+      "Card com número de itens recentes (menos de 10 dias)",
+      "Tabela com itens recentes",
+      "Tabela com itens Acabando",
+      "Opção de ver, atualizar e excluir item",
+      "Formulário para adicionar novo item",
+      "SPA usando rotas com a lib React Router DOM",
+      "Salvamento dos dados (itens) no navegador do usuário",
+      "Responsividade"
+    ],
+    "imageUrl": "",
+    "gitHubUrl": [
+      "https://github.com/josebauer/gestor-de-estoque"
+    ],
+    "demonstrationUrl": "https://gestor-de-estoque-theta.vercel.app"
+  },
+  {
+    "id": 3,
+    "name": "Receitas na mão",
+    "shortDescription": "Um aplicativo de dispositivos móveis criado para um trabalho de faculdade, onde é possível cadastrar, editar, excluir receitas e calcular ingredientes.",
+    "longDescription": "",
+    "technologiesUsed": [
+      "React Native",
+      "Expo",
+      "TypeScript/TSX",
+      "JavaScript",
+      "SQLite"
+    ],
+    "features": [
+      "Adicionar, editar e remover receitas e categorias",
+      "Categorizar as receitas",
+      "Pesquisar receitas e categorias cadastradas",
+      "Ajuste automático de ingredientes"
+    ],
+    "imageUrl": "",
+    "gitHubUrl": [
+      "https://github.com/josebauer/recipe_app"
+    ],
+    "demonstrationUrl": ""
+  }
+]
