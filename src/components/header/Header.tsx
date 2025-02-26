@@ -30,15 +30,15 @@ export default function Header() {
           <NavbarCollapse id="basic-navbar-nav">
             <Nav className="gap-2 gap-lg-5 mx-auto">
               <NavLink className={styles.navLink} href="#about-me">Sobre mim</NavLink>
-              <NavLink className={styles.navLink} href="#">Tecnologias</NavLink>
+              <NavLink className={styles.navLink} href="#technologies">Tecnologias</NavLink>
               <NavLink className={styles.navLink} href="#">Projetos</NavLink>
             </Nav>
             <Nav className={`${styles.navIcons} gap-2 gap-lg-0`} >
               <NavLink target="_blank" href="https://github.com/josebauer">
-                <Image src="/icons/github-logo.svg" alt="logo GitHub" width={25} height={25} />
+                <Image src="/icons/contact/github-logo.svg" alt="logo GitHub" width={25} height={25} />
               </NavLink>
               <NavLink target="_blank" href="https://linkedin.com/in/jose-henrique-bauer/">
-                <Image src="/icons/linkedIn-logo-black.svg" alt="logo LikedIn" width={25} height={25} />
+                <Image src="/icons/contact/linkedIn-logo-black.svg" alt="logo LikedIn" width={25} height={25} />
               </NavLink>
             </Nav>
           </NavbarCollapse>

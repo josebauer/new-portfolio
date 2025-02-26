@@ -4,7 +4,7 @@ import styles from "./aboutMeSection.module.scss";
 
 export default function AboutMeSection() {
   return (
-    <section className="d-flex align-items-center" id="about-me">
+    <section className={styles.section} id="about-me">
       <Container className="d-flex flex-column align-items-center gap-4">
         <Image
           className={styles.image}

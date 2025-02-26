@@ -1,0 +1,61 @@
+.section {
+  background: linear-gradient(180deg, #e2e2e2, transparent);
+}
+
+.technologies {
+  font-family: "Fugaz One";
+  color: #000;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.cardTech {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding: 1.5rem;
+  max-width: 900px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: #fff;
+
+  .description {
+    font-size: 1rem;
+    text-align: justify;
+  }
+}
+
+.techIcons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+// Media Query
+@media screen and (min-width: 480px) {
+  .techIcons {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .technologies {
+    font-size: 2rem;
+  }
+
+  .cardTech {
+    padding: 2rem;
+
+    .description {
+      font-size: 1.25rem;
+    }
+  }
+
+  .techIcons {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+}
