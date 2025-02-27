@@ -2,13 +2,6 @@
   background: linear-gradient(0deg, #e2e2e2, transparent);
 }
 
-.aboutMe {
-  font-family: 'Fugaz One';
-  font-size: 1.75rem;
-  text-align: center;
-  color: #000;
-}
-
 .textAboutMe {
   text-align: justify;
   max-width: 900px;
@@ -27,10 +20,6 @@
 
 // Media Query
 @media screen and (min-width: 768px) {
-  .aboutMe {
-    font-size: 2rem;
-  }
-
   .textAboutMe {
     font-size: 1.25rem;
     padding: 2rem;

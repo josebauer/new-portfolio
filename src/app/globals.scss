@@ -15,7 +15,14 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
+  
+  h2 {
+    font-family: 'Fugaz One';
+    font-size: 1.75rem;
+    color: #000;
+  }
 }
+
 
 // Scroll
 ::-webkit-scrollbar {
@@ -29,4 +36,13 @@ section {
 ::-webkit-scrollbar-thumb {
   background: #000;
   border-radius: 40px;
+}
+
+// Media Query 
+@media screen and (min-width: 768px) {
+  section {
+    h2 {
+      font-size: 2rem;
+    }
+  }
 }

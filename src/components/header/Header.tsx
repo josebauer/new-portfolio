@@ -2,8 +2,9 @@
 
 import styles from "./header.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
+import { Container, Nav, Navbar, NavbarCollapse, NavbarToggle, NavLink } from "react-bootstrap";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -25,13 +26,13 @@ export default function Header() {
     <header className={`fixed-top bg-white ${isScrolled ? "shadow-sm" : ""}`}>
       <Navbar expand="lg" className="bg-body-primary p-3">
         <Container className="d-flex align-items-center">
-          <NavbarBrand className={styles.logo} href="#">JHBAUER</NavbarBrand>
+          <Link className={`navbar-brand ${styles.logo}`} href="/#first-section">JHBAUER</Link>
           <NavbarToggle aria-controls="basic-navbar-nav" />
           <NavbarCollapse id="basic-navbar-nav">
             <Nav className="gap-2 gap-lg-5 mx-auto">
-              <NavLink className={styles.navLink} href="#about-me">Sobre mim</NavLink>
-              <NavLink className={styles.navLink} href="#technologies">Tecnologias</NavLink>
-              <NavLink className={styles.navLink} href="#">Projetos</NavLink>
+              <Link className={`nav-link ${styles.navLink}`} href="/#about-me">Sobre mim</Link>
+              <Link className={`nav-link ${styles.navLink}`} href="/#technologies">Tecnologias</Link>
+              <Link className={`nav-link ${styles.navLink}`} href="/#projects">Projetos</Link>
             </Nav>
             <Nav className={`${styles.navIcons} gap-2 gap-lg-0`} >
               <NavLink target="_blank" href="https://github.com/josebauer">

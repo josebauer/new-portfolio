@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function FirstSection() {
   return (
-    <section>
+    <section id="first-section">
       <Container className="d-flex flex-column justify-content-center align-items-center">
         <p className={styles.name}>JOSÉ HENRIQUE BAUER</p>
         <h1 className={styles.title}>DESENVOLVEDOR WEB</h1>

@@ -2,13 +2,6 @@
   background: linear-gradient(180deg, #e2e2e2, transparent);
 }
 
-.technologies {
-  font-family: "Fugaz One";
-  color: #000;
-  text-align: center;
-  font-size: 1.75rem;
-}
-
 .cardTech {
   display: flex;
   flex-direction: column;
@@ -51,10 +44,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .technologies {
-    font-size: 2rem;
-  }
-
   .cardTech {
     padding: 2rem;
 

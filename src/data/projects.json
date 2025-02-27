@@ -31,17 +31,17 @@
       "Endpoints da API para conexão com o front-end",
       "Autenticação"
     ],
-    "imageUrl": "",
+    "imageUrl": "/images/real-estate-website.png",
     "gitHubUrl": [
-      "https://github.com/josebauer/real-estate-website_backend",
-      "https://github.com/josebauer/real-estate-website_frontend"
+      "https://github.com/josebauer/real-estate-website_frontend",
+      "https://github.com/josebauer/real-estate-website_backend"
     ],
     "demonstrationUrl": ""
   },
   {
     "id": 2,
     "name": "Gestor de Estoque",
-    "shortDescription": "Programa Web Gerenciador de Estoque. Desenvolvido com React, JS, Sass e Bootstrap",
+    "shortDescription": "Programa Web Gerenciador de Estoque, no qual é possível adicionar novos itens ao estoque, ver, atualizar e excluir cada item.",
     "longDescription": "Um programa web gerenciador de estoque, no qual é possível adicionar novos itens ao estoque, inserindo sua quantidade, valor, categoria e descrição. Além da opção de ver, atualizar e excluir cada item.",
     "technologiesUsed": [
       "React",
@@ -62,7 +62,7 @@
       "Salvamento dos dados (itens) no navegador do usuário",
       "Responsividade"
     ],
-    "imageUrl": "",
+    "imageUrl": "/images/dashboard.png",
     "gitHubUrl": [
       "https://github.com/josebauer/gestor-de-estoque"
     ],
@@ -86,7 +86,7 @@
       "Pesquisar receitas e categorias cadastradas",
       "Ajuste automático de ingredientes"
     ],
-    "imageUrl": "",
+    "imageUrl": "/images/receitas-na-mao.jpg",
     "gitHubUrl": [
       "https://github.com/josebauer/recipe_app"
     ],
