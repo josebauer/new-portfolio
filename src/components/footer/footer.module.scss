@@ -1,0 +1,45 @@
+.footer {
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.contact {
+  font-size: 1.5rem;
+  font-weight: 600;
+  // color: #000;
+}
+
+.links {
+  display: grid;
+  gap: 2rem;
+}
+
+.linkItem {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.copyright {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+@media screen and (min-width: 576px) {
+  .links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .links {
+    display: flex;
+  }
+}

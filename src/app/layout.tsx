@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Fugaz_One } from "next/font/google"
 
 import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
+
 import type { Metadata } from "next";
 
 const fugazOne = Fugaz_One({ 
@@ -26,6 +28,7 @@ export default function RootLayout({
       <body className={fugazOne.variable}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -23,7 +23,7 @@ interface Props {
 
 export default function ProjectCard({ project }: Props) {
   return (
-    <Card className={`${styles.card} shadow`}>
+    <Card className={styles.card}>
       <Image
         src={project.imageUrl}
         alt={project.name}
