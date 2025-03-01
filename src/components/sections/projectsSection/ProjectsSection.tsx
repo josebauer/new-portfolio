@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import projects from "@/data/projects.json"
-import Slide from "../slide/Slide";
+import Slide from "@/components/carousel/slide/Slide";
 
 export default function ProjectsSection() {
   return (

@@ -2,7 +2,7 @@
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import ProjectCard, { ProjectType } from '../projectCard/ProjectCard';
+import ProjectCard, { ProjectType } from '../../cards/projectCard/ProjectCard';
 
 interface Props {
   projects: ProjectType[]

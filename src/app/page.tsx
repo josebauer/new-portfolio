@@ -1,7 +1,7 @@
-import AboutMeSection from "@/components/aboutMeSection/AboutMeSection";
-import FirstSection from "@/components/firstSection/FirstSection";
-import ProjectsSection from "@/components/projectsSection/ProjectsSection";
-import TechnologiesSection from "@/components/technologiesSection/TechnologiesSection";
+import AboutMeSection from "@/components/sections/aboutMeSection/AboutMeSection";
+import FirstSection from "@/components/sections/firstSection/FirstSection";
+import ProjectsSection from "@/components/sections/projectsSection/ProjectsSection";
+import TechnologiesSection from "@/components/sections/technologiesSection/TechnologiesSection";
 
 export default function Home() {
   return (
