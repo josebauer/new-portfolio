@@ -31,7 +31,7 @@
       "Endpoints da API para conexão com o front-end",
       "Autenticação"
     ],
-    "imageUrl": "/images/real-estate-website.png",
+    "imagesUrl": ["/images/real-estate-website.png", "/images/demonstration-real-estate.png"],
     "gitHubUrl": [
       "https://github.com/josebauer/real-estate-website_frontend",
       "https://github.com/josebauer/real-estate-website_backend"
@@ -62,7 +62,7 @@
       "Salvamento dos dados (itens) no navegador do usuário",
       "Responsividade"
     ],
-    "imageUrl": "/images/dashboard.png",
+    "imagesUrl": ["/images/dashboard.png", "/images/phone-dashboard-demo.png"],
     "gitHubUrl": [
       "https://github.com/josebauer/gestor-de-estoque"
     ],
@@ -72,7 +72,7 @@
     "id": 3,
     "name": "Receitas na mão",
     "shortDescription": "Um aplicativo de dispositivos móveis criado para um trabalho de faculdade, onde é possível cadastrar, editar, excluir receitas e calcular ingredientes.",
-    "longDescription": "",
+    "longDescription": "Um aplicativo móvel que funciona como um caderno de receitas digital, permitindo que o usuário adicione, edite, exclua e pesquise receitas com facilidade. Além disso, conta com um cálculo automático de ingredientes, ajustando as quantidades conforme o número de porções desejado.",
     "technologiesUsed": [
       "React Native",
       "Expo",
@@ -86,7 +86,7 @@
       "Pesquisar receitas e categorias cadastradas",
       "Ajuste automático de ingredientes"
     ],
-    "imageUrl": "/images/receitas-na-mao.jpg",
+    "imagesUrl": ["/images/receitas-na-mao.jpg", "/images/demonstration-recipe-app.png"],
     "gitHubUrl": [
       "https://github.com/josebauer/recipe_app"
     ],

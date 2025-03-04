@@ -12,7 +12,7 @@ export type ProjectType = {
   longDescription?: string
   technologiesUsed: Array<String>
   features: Array<String>
-  imageUrl: string
+  imagesUrl: Array<String>
   gitHubUrl: Array<String>
   demonstrationUrl?: string
 }
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: Props) {
   return (
     <Card className={styles.card}>
       <Image
-        src={project.imageUrl}
+        src={project.imagesUrl[0].toString()}
         alt={project.name}
         className={styles.projectImage}
         width={400}
