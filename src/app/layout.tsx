@@ -10,7 +10,8 @@ import type { Metadata } from "next";
 
 const fugazOne = Fugaz_One({ 
   variable: "--font-fugaz-one",  
-  weight: '400'
+  weight: '400',
+  subsets: ['latin']
 })
 
 export const metadata: Metadata = {
