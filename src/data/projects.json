@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Sistema para Imobiliárias",
     "shortDescription": "Um sistema web completo, com backend e frontend, desenvolvido para uso em imobiliárias. Meu projeto de maior complexidade desenvolvido até então.",
-    "longDescription": "",
+    "longDescription": "Sistema web completo para imobiliárias, permitindo que corretores e administradores cadastrem usuários, categorias e imóveis, além de gerenciar agendamentos de visitas. Para os usuários, a plataforma oferece criação de conta, favoritos, agendamentos de visitas e notificações por e-mail. Esse foi o projeto mais desafiador e complexo que desenvolvi.",
     "technologiesUsed": [
       "Next.js",
       "TypeScript/TSX",
@@ -62,7 +62,7 @@
       "Salvamento dos dados (itens) no navegador do usuário",
       "Responsividade"
     ],
-    "imagesUrl": ["/images/dashboard.png", "/images/phone-dashboard-demo.png"],
+    "imagesUrl": ["/images/dashboard.png", "/images/demonstration-stock-manager.png"],
     "gitHubUrl": [
       "https://github.com/josebauer/gestor-de-estoque"
     ],
