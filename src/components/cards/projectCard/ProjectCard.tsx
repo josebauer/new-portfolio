@@ -10,10 +10,10 @@ export type ProjectType = {
   name: string
   shortDescription: string
   longDescription?: string
-  technologiesUsed: Array<String>
-  features: Array<String>
-  imagesUrl: Array<String>
-  gitHubUrl: Array<String>
+  technologiesUsed: string[]
+  features: string[]
+  imagesUrl: string[]
+  gitHubUrl: string[]
   demonstrationUrl?: string
 }
 
