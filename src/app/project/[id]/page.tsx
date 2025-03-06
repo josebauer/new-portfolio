@@ -52,9 +52,9 @@ export default function Project() {
         </Container>
       </section>
       <section>
-        <Container>
+        <Container className="pb-5">
           <p className={styles.subtitle}>Descrição do projeto:</p>
-          <p>{project.longDescription}</p>
+          <p className={styles.longDescription}>{project.longDescription}</p>
           <p className={`${styles.subtitle} mt-4`}>Tecnologias utilizadas:</p>
           <ul>
             {project.technologiesUsed.map((technologie, index) => (

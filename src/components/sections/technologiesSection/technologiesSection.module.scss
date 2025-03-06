@@ -33,6 +33,7 @@
 
   p {
     font-weight: 600;
+    font-size: .75rem;
   }
 }
 
@@ -49,6 +50,12 @@
 
     .description {
       font-size: 1.25rem;
+    }
+  }
+
+  .techIcon {
+    p {
+      font-size: 1rem;
     }
   }
 }
