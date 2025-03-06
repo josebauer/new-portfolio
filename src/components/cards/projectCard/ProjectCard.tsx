@@ -1,9 +1,10 @@
 "use client"
 
-import { Card } from "react-bootstrap";
+import { Button, Card, Modal } from "react-bootstrap";
 import styles from "./projectCard.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 
 export type ProjectType = {
   id: number
@@ -22,6 +23,11 @@ interface Props {
 }
 
 export default function ProjectCard({ project }: Props) {
+  const [showModal, setShowModal] = useState(false)
+
+  const openModal = () => setShowModal(true)
+  const closeModal = () => setShowModal(false)
+
   return (
     <Card className={styles.card}>
       <Image
@@ -43,16 +49,40 @@ export default function ProjectCard({ project }: Props) {
           <Link className={`btn btn-outline-primary`} href={`/project/${project.id}`}>
             Ver detalhes
           </Link>
-          <Link target="_blank" href={project.gitHubUrl[0].toString()}>
-            <Image src="/icons/contact/github-logo.svg" height={25} width={25} alt="Repositório no GitHub" />
-          </Link>
-          {project.demonstrationUrl ? (
-          <Link target="_blank" href={project.demonstrationUrl.toString()}>
-            <Image src="/icons/network.svg" height={25} width={25} alt="Ver projeto funcionando" />
-          </Link>
-          ) : ""}
+          
+          {project.gitHubUrl.length > 1 ? (
+            <button className={styles.githubButton} onClick={openModal}>
+              <Image src="/icons/contact/github-logo.svg" height={25} width={25} alt="Repositório no GitHub" />
+            </button>
+          ) : (
+            <Link target="_blank" href={project.gitHubUrl[0]}>
+              <Image src="/icons/contact/github-logo.svg" height={25} width={25} alt="Repositório no GitHub" />
+            </Link>
+          )}
+
+          {project.demonstrationUrl && (
+            <Link target="_blank" href={project.demonstrationUrl}>
+              <Image src="/icons/network.svg" height={25} width={25} alt="Ver projeto funcionando" />
+            </Link>
+          )}
         </div>
 
+        <Modal show={showModal} onHide={closeModal} centered>
+          <Modal.Header closeButton>
+            <Modal.Title>Escolha um repositório</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Link href={project.gitHubUrl[0]} target="_blank" className="btn btn-outline-primary w-100 my-2">
+              Repositório Front-end
+            </Link>
+            <Link href={project.gitHubUrl[1]} target="_blank" className="btn btn-outline-primary w-100 my-2">
+              Repositório Back-end
+            </Link>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={closeModal}>Fechar</Button>
+          </Modal.Footer>
+        </Modal>
       </Card.Body>
     </Card>
   )

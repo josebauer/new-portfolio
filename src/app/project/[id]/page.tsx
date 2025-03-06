@@ -1,6 +1,6 @@
 'use client'
 
-import ErrorMessage from "@/components/common/ErrorMessage";
+import ErrorMessage from "@/components/common/errorMessage/ErrorMessage";
 import styles from "./page.module.scss";
 import projects from "@/data/projects.json";
 import Link from "next/link";

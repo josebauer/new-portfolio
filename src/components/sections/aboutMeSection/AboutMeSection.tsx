@@ -10,8 +10,8 @@ export default function AboutMeSection() {
           className={styles.image}
           src="https://avatars.githubusercontent.com/u/104539756?v=4"
           alt="vercel"
-          width={400} 
-          height={400} 
+          width={250} 
+          height={250} 
         />
         <h2>SOBRE MIM</h2>
         <p className={styles.textAboutMe}>
