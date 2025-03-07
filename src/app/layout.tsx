@@ -16,7 +16,7 @@ const fugazOne = Fugaz_One({
 
 export const metadata: Metadata = {
   title: "Portfólio | José H Bauer",
-  description: "Projetos - José H Bauer",
+  description: "Portfólio com projetos pessoais | José Henrique Bauer",
 };
 
 export default function RootLayout({
