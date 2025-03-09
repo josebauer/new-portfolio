@@ -64,7 +64,7 @@ export default function Project() {
           <p className={`${styles.subtitle} mt-4`}>Funcionalidades:</p>
           <ul>
             {project.features.map((feature, index) => (
-              <li key={index}>{feature}</li>
+              <li className={styles.featuresItem} key={index}>{feature}</li>
             ))}
           </ul>
         </Container>
