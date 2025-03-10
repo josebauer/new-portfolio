@@ -1,4 +1,5 @@
 import "./globals.scss";
+import "aos/dist/aos.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Fugaz_One } from "next/font/google"

@@ -3,12 +3,18 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import ProjectCard, { ProjectType } from '../../cards/projectCard/ProjectCard';
+import AOS from "aos";
+import { useEffect } from 'react';
 
 interface Props {
   projects: ProjectType[]
 }
 
 export default function Slide({ projects }: Props) {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   let slideCount = 0
 
   if (projects.length >= 3) {
@@ -28,7 +34,7 @@ export default function Slide({ projects }: Props) {
 
   return (
     <>
-      <div className='pb-5'>
+      <div className='pb-5' data-aos="fade-right">
         <Splide
           hasTrack={true}
           options={{

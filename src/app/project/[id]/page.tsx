@@ -7,8 +7,14 @@ import Link from "next/link";
 import { useParams } from "next/navigation";
 import { Container } from "react-bootstrap";
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from "aos";
 
 export default function Project() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   const { id } = useParams()
 
   if (!id || typeof id !== 'string') return null
@@ -21,7 +27,7 @@ export default function Project() {
   return (
     <main>
       <section>
-        <Container className={styles.container}>
+        <Container className={styles.container} data-aos="fade-up">
           <h1 className="text-center">{project.name}</h1>
           <Image src={project.imagesUrl[1]} alt={project.name} width={768} height={432} quality={100} layout="intrinsic" />
           <div className="d-flex justify-content-center flex-wrap gap-4">
@@ -52,7 +58,7 @@ export default function Project() {
         </Container>
       </section>
       <section>
-        <Container className="pb-5">
+        <Container className="pb-5" data-aos="fade-right">
           <p className={styles.subtitle}>Descrição do projeto:</p>
           <p className={styles.longDescription}>{project.longDescription}</p>
           <p className={`${styles.subtitle} mt-4`}>Tecnologias utilizadas:</p>
