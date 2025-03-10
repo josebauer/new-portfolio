@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function FirstSection() {
   return (
     <section id="first-section">
-      <Container className="d-flex flex-column justify-content-center align-items-center">
+      <Container className="d-flex flex-column justify-content-center align-items-center pt-5">
         <p className={styles.name}>JOSÉ HENRIQUE BAUER</p>
         <h1 className={styles.title}>DESENVOLVEDOR WEB</h1>
         <Container className="d-flex gap-3 gap-sm-4 gap-md-5 justify-content-center align-items-center">
@@ -23,6 +23,9 @@ export default function FirstSection() {
             <Image src="/icons/contact/email-icon.svg" alt="Ícone email" width={30} height={30} />
           </Link>
         </Container>
+        <Link href="#about-me">
+          <Image className="mt-5" src="/icons/arrow-down.gif" alt="Seta para baixo" width={60} height={60}/>
+        </Link>
       </Container>
     </section>
   )

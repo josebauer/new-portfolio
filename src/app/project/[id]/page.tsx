@@ -21,9 +21,9 @@ export default function Project() {
   return (
     <main>
       <section>
-        <Container className="d-flex flex-column align-items-center justify-content-center pt-5 gap-4">
+        <Container className={styles.container}>
           <h1 className="text-center">{project.name}</h1>
-          <Image src={project.imagesUrl[1]} alt={project.name} width={1024} height={576} quality={100} layout="intrinsic" />
+          <Image src={project.imagesUrl[1]} alt={project.name} width={768} height={432} quality={100} layout="intrinsic" />
           <div className="d-flex justify-content-center flex-wrap gap-4">
             {project.gitHubUrl.length > 1 ? (
               <div className="d-flex justify-content-center flex-wrap gap-4">
