@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center">Portfólio- 2025</h1>
 
-## Getting Started
+<p align="center">Site desenvolvido para usar como portfólio pessoal. Nele há informações sobre mim, tecnologias que eu domino, três projetos que eu desenvolvi e meu contato.</p>
 
-First, run the development server:
+## 🚀 Objetivos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Praticar o desenvolvimento web, aproveitando para criar um site para usar como portfólio.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js
+- React
+- TypeScript
+- Sass
+- React-Bootstrap
+- Bootstrap
+- AOS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Features
 
-## Learn More
+- Textos e elementos animados usando a lib <a href="https://github.com/michalsnik/aos">AOS</a>
+- Responsividade
+- Cards com imagens e informações dos projetos
+- Página dos projetos com demonstração, links para o repositório no GitHub e descrição detalhada dos projetos
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Demonstração
+Acesse o resultado final do projeto <a href="https://josebauer.com.br">clicando aqui</a>.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✒️ Autor
+<p>
+  <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/104539756?v=4"/>
+  <p>&nbsp&nbsp&nbspJosé Henrique Bauer<br><br>
+  &nbsp&nbsp&nbsp<a href="https://github.com/josebauer">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/jose-henrique-bauer">LinkedIn</a>&nbsp;|&nbsp;<a href="https://josebauer.com.br">Portfólio</a>
+  </p>
+</p>
