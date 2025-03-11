@@ -27,29 +27,29 @@ export default function Project() {
   return (
     <main>
       <section>
-        <Container className={styles.container} data-aos="fade-up">
-          <h1 className="text-center">{project.name}</h1>
-          <Image src={project.imagesUrl[1]} alt={project.name} width={768} height={432} quality={100} layout="intrinsic" />
+        <Container className={styles.container}>
+          <h1 className="text-center" data-aos="fade-down">{project.name}</h1>
+          <Image src={project.imagesUrl[1]} alt={project.name} width={768} height={432} quality={100} layout="intrinsic" data-aos="fade-up" />
           <div className="d-flex justify-content-center flex-wrap gap-4">
             {project.gitHubUrl.length > 1 ? (
               <div className="d-flex justify-content-center flex-wrap gap-4">
-                <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[0]}>
+                <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[0]} data-aos="zoom-in">
                   <Image src="/icons/contact/github-logo.svg" alt="Repositório do GitHub" width={30} height={30} />
                   <p>Repositório Front-end</p>
                 </Link>
-                <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[1]}>
+                <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[1]} data-aos="zoom-in">
                   <Image src="/icons/contact/github-logo.svg" alt="Repositório do GitHub" width={30} height={30} />
                   <p>Repositório Back-end</p>
                 </Link>
               </div>
             ) : (
-              <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[0]}>
+              <Link className={`${styles.link} btn`}  target="_blank" href={project.gitHubUrl[0]} data-aos="zoom-in">
                 <Image src="/icons/contact/github-logo.svg" alt="Repositório do GitHub" width={30} height={30} />
                 <p>Repositório GitHub</p>
               </Link>
             )}
             {project.demonstrationUrl ? (
-              <Link className={`${styles.link} btn`}  target="_blank" href={project.demonstrationUrl.toString()}>
+              <Link className={`${styles.link} btn`}  target="_blank" href={project.demonstrationUrl.toString()} data-aos="zoom-in">
                 <Image src="/icons/network.svg" height={25} width={25} alt="Ver projeto funcionando" />
                 <p>Projeto funcionando</p>
               </Link>
@@ -58,17 +58,17 @@ export default function Project() {
         </Container>
       </section>
       <section>
-        <Container className="pb-5" data-aos="fade-right">
-          <p className={styles.subtitle}>Descrição do projeto:</p>
-          <p className={styles.longDescription}>{project.longDescription}</p>
-          <p className={`${styles.subtitle} mt-4`}>Tecnologias utilizadas:</p>
-          <ul>
+        <Container className="pb-5">
+          <p className={styles.subtitle} data-aos="fade-right" data-aos-duration="1000">Descrição do projeto:</p>
+          <p className={styles.longDescription} data-aos="fade-right">{project.longDescription}</p>
+          <p className={`${styles.subtitle} mt-4`} data-aos="fade-right" data-aos-duration="1000">Tecnologias utilizadas:</p>
+          <ul data-aos="fade-right">
             {project.technologiesUsed.map((technologie, index) => (
               <li key={index}>{technologie}</li>
             ))}
           </ul>
-          <p className={`${styles.subtitle} mt-4`}>Funcionalidades:</p>
-          <ul>
+          <p className={`${styles.subtitle} mt-4`} data-aos="fade-right" data-aos-duration="1000">Funcionalidades:</p>
+          <ul data-aos="fade-right">
             {project.features.map((feature, index) => (
               <li className={styles.featuresItem} key={index}>{feature}</li>
             ))}
