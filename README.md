@@ -4,7 +4,7 @@
 
 ## 🚀 Objetivos
 
-Praticar o desenvolvimento web, aproveitando para criar um site para usar como portfólio.
+Praticar o desenvolvimento web, usando meus conhecimentos para criar um site do meu portfólio.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -21,7 +21,8 @@ Praticar o desenvolvimento web, aproveitando para criar um site para usar como p
 - Textos e elementos animados usando a lib <a href="https://github.com/michalsnik/aos">AOS</a>
 - Responsividade
 - Cards com imagens e informações dos projetos
-- Página dos projetos com demonstração, links para o repositório no GitHub e descrição detalhada dos projetos
+- Slide dos cards para telas menores
+- Página de projetos com dados dinâmicos, onde há a demonstração, links para o repositório no GitHub, link do projeto funcionando e descrição detalhada
 
 ## 🌐 Demonstração
 Acesse o resultado final do projeto <a href="https://josebauer.com.br">clicando aqui</a>.
