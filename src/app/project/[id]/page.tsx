@@ -29,7 +29,9 @@ export default function Project() {
       <section>
         <Container className={styles.container}>
           <h1 className="text-center" data-aos="fade-down">{project.name}</h1>
-          <Image src={project.imagesUrl[1]} alt={project.name} width={768} height={432} quality={100} layout="intrinsic" data-aos="fade-up" />
+          <div className={styles.imageWrapper} data-aos="fade-up">
+            <Image src={project.imagesUrl[1]} alt={project.name} fill quality={100} sizes="(max-width: 768px) 100vw, 768px" style={{ objectFit: "contain" }} />
+          </div>
           <div className="d-flex justify-content-center flex-wrap gap-4">
             {project.gitHubUrl.length > 1 ? (
               <div className="d-flex justify-content-center flex-wrap gap-4">
@@ -75,6 +77,19 @@ export default function Project() {
           </ul>
         </Container>
       </section>
+      {project.demonstrationUrlVideo ? (
+        <section>
+          <Container>
+            <h2 className={styles.demonstrationVideo}>Vídeo de Demonstração</h2>
+              <div className={styles.videoWrapper}>
+                <iframe
+                  src={project.demonstrationUrlVideo}
+                  allowFullScreen
+                />
+              </div>
+          </Container>
+        </section>
+      ): ""}
     </main >
   )
 }

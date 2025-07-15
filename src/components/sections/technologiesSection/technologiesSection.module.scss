@@ -62,8 +62,6 @@
 
 @media screen and (min-width: 992px) {
   .techIcons {
-    display: flex;
-    gap: 2.25rem;
-    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
   }
 }

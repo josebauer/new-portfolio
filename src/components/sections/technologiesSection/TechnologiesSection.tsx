@@ -16,7 +16,7 @@ export default function TechnologiesSection() {
       <Container className="d-flex flex-column align-items-center justify-content-center gap-4">
         <h2 data-aos="fade-down">TECNOLOGIAS</h2>
         <div className={styles.cardTech} data-aos="fade-left">
-          <p className={styles.description}>Essas são as tecnologias com as quais tive mais experiência e maior domínio, mas estou sempre aberto a aprender novas ferramentas conforme a necessidade.</p>
+          <p className={styles.description}>Essas são as tecnologias com as quais tive mais experiência e maior domínio, mas estou sempre aberto a aprender a usar novas ferramentas conforme a necessidade.</p>
           <div className={styles.techIcons}>
             <div className={styles.techIcon}>
               <Image src="/icons/technologies/nextjs-icon.svg" alt="Next.js" width={40} height={40} />
@@ -43,8 +43,16 @@ export default function TechnologiesSection() {
               <p>Node.js</p>
             </div>
             <div className={styles.techIcon}>
+              <Image src="/icons/technologies/python.png" alt="Python" width={40} height={40} />
+              <p>Python</p>
+            </div>
+            <div className={styles.techIcon}>
               <Image src="/icons/technologies/postgresql.svg" alt="PostgreSQL" width={40} height={40} />
               <p>PostgreSQL</p>
+            </div>
+            <div className={styles.techIcon}>
+              <Image src="/icons/technologies/mysql.png" alt="MySQL" width={40} height={40} />
+              <p>MySQL</p>
             </div>
             <div className={styles.techIcon}>
               <Image src="/icons/technologies/git-logo.svg" alt="Git" width={40} height={40} />

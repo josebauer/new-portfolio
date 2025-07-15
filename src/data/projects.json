@@ -36,12 +36,13 @@
       "https://github.com/josebauer/real-estate-website_frontend",
       "https://github.com/josebauer/real-estate-website_backend"
     ],
-    "demonstrationUrl": ""
+    "demonstrationUrl": "",
+    "demonstrationUrlVideo": "https://www.youtube.com/embed/bKEueqLLlwE?si=0oxiZ_APUpHhwQxN"
   },
   {
     "id": 2,
     "name": "Gestor de Estoque",
-    "shortDescription": "Programa Web Gerenciador de Estoque, no qual é possível adicionar novos itens ao estoque, ver, atualizar e excluir cada item.",
+    "shortDescription": "Sistema web Gerenciador de Estoque, no qual é possível adicionar novos itens ao estoque, ver, atualizar e excluir cada item.",
     "longDescription": "Um programa web gerenciador de estoque, no qual é possível adicionar novos itens ao estoque, inserindo sua quantidade, valor, categoria e descrição. Além da opção de ver, atualizar e excluir cada item.",
     "technologiesUsed": [
       "React",
@@ -66,7 +67,8 @@
     "gitHubUrl": [
       "https://github.com/josebauer/gestor-de-estoque"
     ],
-    "demonstrationUrl": "https://gestor-de-estoque-theta.vercel.app"
+    "demonstrationUrl": "https://gestor-de-estoque-theta.vercel.app",
+    "demonstrationUrlVideo": ""
   },
   {
     "id": 3,
@@ -90,6 +92,33 @@
     "gitHubUrl": [
       "https://github.com/josebauer/recipe_app"
     ],
-    "demonstrationUrl": ""
+    "demonstrationUrl": "",
+    "demonstrationUrlVideo": ""
+  },
+  {
+    "id": 4,
+    "name": "Sistema de Comandas",
+    "shortDescription": "Sistema de comandas desktop desenvolvido para uso em uma cafeteria. Foi planejado e desenvolvido pela minha equipe no curso Jovem Programador. Nele é possível gerenciar usuários, o cardápio e realizar pedidos",
+    "longDescription": "Um sistema de comandas, onde se realiza e controle pedidos. É possível cadastrar os usuários que irão operar o sistema, podendo ser Atendente ou Administrador. Sendo que o administrador tem acesso total ao sistema, no qual pode gerenciar os usuários, o cardápio, realizar pedidos e ver relatórios. Já o usuário atendente só poderá realizar os pedidos, visualizar os dados dos pedidos e alterar seus status.",
+    "technologiesUsed": [
+      "Python",
+      "MySQL",
+      "customTKinter",
+      "mysql-connector",  
+      "PIL"
+    ],
+    "features": [
+      "Cadastrar, editar e remover usuários, produtos e categorias",
+      "Realizar pedidos",
+      "Alterar status do pedido (Em preparo / Entregue / Cancelado)",
+      "Filtrar pedidos por status",
+      "Ver relatórios de produtos e pedidos"
+    ],
+    "imagesUrl": ["/images/sistema-comandas.PNG", "/images/demonstration-orders.png"],
+    "gitHubUrl": [
+      "https://github.com/josebauer/sistema-comandas"
+    ],
+    "demonstrationUrl": "",
+    "demonstrationUrlVideo": "https://www.youtube.com/embed/zU7cIAApkEM?si=AQk7yux0eOY12myk"
   }
 ]

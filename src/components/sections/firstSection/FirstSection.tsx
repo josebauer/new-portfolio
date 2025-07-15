@@ -32,7 +32,7 @@ export default function FirstSection() {
           </Link>
         </Container>
         <Link href="#about-me">
-          <Image className="mt-5" src="/icons/arrow-down.gif" alt="Seta para baixo" width={60} height={60} />
+          <Image className="mt-5" src="/icons/arrow-down.gif" alt="Seta para baixo" unoptimized width={60} height={60} />
         </Link>
       </Container>
     </section>

@@ -24,7 +24,7 @@ export default function AboutMeSection() {
         />
         <h2 data-aos="fade-right" data-aos-duration="1000">SOBRE MIM</h2>
         <p className={styles.textAboutMe} data-aos="fade-right">
-          Olá! Meu nome é José Henrique Bauer, tenho 22 anos e sou formado em Ciência da Computação. Sou estudante de desenvolvimento web e estou sempre em busca de novos aprendizados para evoluir como profissional.<br />< br /> Atualmente, estou a procura de uma oportunidade como Desenvolvedor Web Júnior para aplicar meus conhecimentos e crescer na área.
+          Olá! Meu nome é José Henrique Bauer, tenho 23 anos e sou formado em Ciência da Computação. Sou estudante de desenvolvimento web e estou sempre em busca de novos aprendizados para evoluir como profissional.<br />< br /> Atualmente, estou a procura de uma oportunidade como Desenvolvedor Web Júnior para aplicar meus conhecimentos e crescer na área.
         </p>
       </Container>
     </section>
