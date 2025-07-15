@@ -80,8 +80,8 @@ export default function Project() {
       {project.demonstrationUrlVideo ? (
         <section>
           <Container>
-            <h2 className={styles.demonstrationVideo}>Vídeo de Demonstração</h2>
-              <div className={styles.videoWrapper}>
+            <h2 className={styles.demonstrationVideo} data-aos="fade-right" data-aos-duration="1000">Vídeo de Demonstração</h2>
+              <div className={styles.videoWrapper} data-aos="fade-right" data-aos-duration="1000">
                 <iframe
                   src={project.demonstrationUrlVideo}
                   allowFullScreen
