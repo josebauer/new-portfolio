@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
 }
 
+
 section {
   scroll-margin-top: 40px;
   min-height: 100vh;
@@ -24,6 +25,15 @@ section {
   }
 }
 
+.typed-cursor {
+  animation: blink 0.7s infinite;
+  font-weight: 100;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
 
 // Scroll
 ::-webkit-scrollbar {
