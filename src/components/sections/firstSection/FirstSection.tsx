@@ -9,7 +9,6 @@ import { useEffect, useState } from "react";
 import { ReactTyped } from "react-typed";
 
 export default function FirstSection() {
-  const [showName, setShowName] = useState(true);
   const [showTitle, setShowTitle] = useState(false);
   const [showContacts, setShowContacts] = useState(false);
 
@@ -23,24 +22,20 @@ export default function FirstSection() {
       <Container className="d-flex flex-column justify-content-center align-items-center pt-5">
         <div className={styles.textWrapper}>
           <p className={styles.name}>
-            {showName ? (
-              <ReactTyped
-                strings={["JOSÉ HENRIQUE BAUER"]}
-                typeSpeed={50}
-                backSpeed={0}
-                showCursor={true}
-                loop={false}
-                cursorChar="|"
-                onComplete={(self) => {
-                  self.cursor.remove();
-                  setTimeout(() => {
-                    setShowTitle(true);
-                  }, 500);
-                }}
-              />
-            ) : (
-              <span className={styles.placeholder}>JOSÉ HENRIQUE BAUER</span>
-            )}
+            <ReactTyped
+              strings={["JOSÉ HENRIQUE BAUER"]}
+              typeSpeed={50}
+              backSpeed={0}
+              showCursor={true}
+              loop={false}
+              cursorChar="|"
+              onComplete={(self) => {
+                self.cursor.remove();
+                setTimeout(() => {
+                  setShowTitle(true);
+                }, 500);
+              }}
+            />
           </p>
 
           <h1 className={styles.title}>
@@ -86,7 +81,7 @@ export default function FirstSection() {
                 <Image className="mt-5" src="/icons/arrow-down.gif" alt="Seta para baixo" unoptimized width={60} height={60} />
               </Link>
             </Container>
-          ):(
+          ) : (
             <span className={styles.placeholder}>
               josebauer.dev@gmail.com
             </span>
