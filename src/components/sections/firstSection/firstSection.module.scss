@@ -16,6 +16,32 @@
   font-size: .75rem;
 }
 
+:global(.typed-cursor) {
+  animation: blink 0.7s infinite;
+  font-weight: 100;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  justify-content: center;
+}
+
+.contacts {
+  height: 100px;
+}
+
+.placeholder {
+  visibility: hidden;
+}
+
 .contactIcon {
   transition: .5s;
 

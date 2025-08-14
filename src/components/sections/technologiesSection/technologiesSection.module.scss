@@ -65,3 +65,19 @@
     grid-template-columns: repeat(5, 1fr);
   }
 }
+
+@media screen and (max-height: 768px) {
+  .cardTech {
+    padding: 1.5rem;
+
+    .description {
+      font-size: 1rem; 
+    }
+  }
+
+  .techIcon {
+    p {
+      font-size: .75rem;
+    }
+  }
+}

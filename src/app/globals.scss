@@ -12,6 +12,7 @@ body {
 }
 
 section {
+  scroll-margin-top: 40px;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -43,6 +44,15 @@ section {
   section {
     h2 {
       font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-height: 768px) {
+
+  section {
+    h2 {
+      font-size: 1.75rem;
     }
   }
 }

@@ -37,3 +37,15 @@
     height: 250;
   }
 }
+
+@media screen and (max-height: 768px) {
+  .textAboutMe {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+
+  .image {
+    width: 150;
+    height: 150;
+  }
+}

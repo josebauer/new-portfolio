@@ -29,7 +29,7 @@ export default function Footer() {
           </div>
           <div className="d-flex gap-2">
             <Image src="/icons/contact/phone.svg" alt="telefone" width={25} height={25} />
-            <Link className={styles.linkItem} href="tel:(47) 9 99759-4781">
+            <Link className={styles.linkItem} href="tel:(47)9997594781">
               (47) 9 9759-4781
             </Link>
           </div>
