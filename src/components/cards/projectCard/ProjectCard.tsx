@@ -46,7 +46,7 @@ export default function ProjectCard({ project }: Props) {
           {project.shortDescription}
         </Card.Text>
         <div className="d-flex gap-4 align-items-center">
-          <Link className={`btn btn-outline-primary`} href={`/project/${project.id}`}>
+          <Link className={`btn btn-dark`} href={`/project/${project.id}`}>
             Ver detalhes
           </Link>
           

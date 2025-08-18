@@ -98,7 +98,7 @@
   {
     "id": 4,
     "name": "Sistema de Comandas",
-    "shortDescription": "Sistema de comandas desktop desenvolvido para uso em uma cafeteria. Foi planejado e desenvolvido pela minha equipe no curso Jovem Programador. Nele é possível gerenciar usuários, o cardápio e realizar pedidos",
+    "shortDescription": "Sistema de comandas desktop desenvolvido para uso em uma cafeteria. Foi planejado e desenvolvido pela minha equipe no curso Jovem Programador.",
     "longDescription": "Um sistema de comandas, onde se realiza e controle pedidos. É possível cadastrar os usuários que irão operar o sistema, podendo ser Atendente ou Administrador. Sendo que o administrador tem acesso total ao sistema, no qual pode gerenciar os usuários, o cardápio, realizar pedidos e ver relatórios. Já o usuário atendente só poderá realizar os pedidos, visualizar os dados dos pedidos e alterar seus status.",
     "technologiesUsed": [
       "Python",
