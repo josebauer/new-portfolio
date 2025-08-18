@@ -15,7 +15,7 @@ export default function TechnologiesSection() {
     <section className={styles.section} id="technologies">
       <Container className="d-flex flex-column align-items-center justify-content-center gap-4">
         <h2 data-aos="fade-down">TECNOLOGIAS</h2>
-        <div className={styles.cardTech} data-aos="fade-left">
+        <div className={`${styles.cardTech} shadow`} data-aos="fade-left">
           <p className={styles.description}>Essas são as tecnologias com as quais tive mais experiência e maior domínio, mas estou sempre aberto a aprender a usar novas ferramentas conforme a necessidade.</p>
           <div className={styles.techIcons}>
             <div className={styles.techIcon}>

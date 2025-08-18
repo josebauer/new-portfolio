@@ -2,19 +2,19 @@
   background: linear-gradient(0deg, #e2e2e2, transparent);
 }
 
-.textAboutMe {
+.aboutMe {
+  gap: 1.5rem;
   text-align: justify;
   max-width: 900px;
   font-size: 1rem;
   padding: 1.5rem;
-  border: 2px solid #000;
   border-radius: 20px;
   background-color: #FFF;
 }
 
 .image {
-  width: 150;
-  height: 150;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -26,15 +26,8 @@
   }
 
   .image {
-    width: 200;
-    height: 200;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .image {
-    width: 250;
-    height: 250;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -45,7 +38,7 @@
   }
 
   .image {
-    width: 150;
-    height: 150;
+    width: 150px;
+    height: 150px;
   }
 }
