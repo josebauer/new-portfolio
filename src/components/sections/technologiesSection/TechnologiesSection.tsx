@@ -2,7 +2,6 @@
 
 import { Container } from "react-bootstrap";
 import styles from "./technologiesSection.module.scss";
-import Image from "next/image";
 import AOS from "aos";
 import { useEffect } from "react";
 
