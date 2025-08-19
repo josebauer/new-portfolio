@@ -7,9 +7,24 @@
 .projectImage {
   object-fit: cover;
   align-self: center;
+  width: 100%;
 }
 
 .githubButton {
   border: none;
   background-color: transparent;
+}
+
+@media (max-height: 768px) {
+  .projectImage {
+    height: 200px;
+  }
+
+  .card {
+    height: 400px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
 }
