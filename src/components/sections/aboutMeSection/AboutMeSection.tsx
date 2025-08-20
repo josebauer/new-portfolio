@@ -27,7 +27,7 @@ export default function AboutMeSection() {
             Olá! Meu nome é José Henrique Bauer, tenho 23 anos e sou formado em Ciência da Computação. Sou estudante de desenvolvimento web e estou sempre em busca de novos aprendizados para evoluir como profissional.<br />< br /> Atualmente, estou a procura de uma oportunidade como Desenvolvedor Web Júnior para aplicar meus conhecimentos e crescer na área.
           </p>
         </div>
-        <Button as="a" className={styles.downloadButton} variant="outline-dark" href="/files/Currículo_José_Henrique_Bauer.pdf" target="_blank" download data-aos="fade-up" data-aos-duration="1000">
+        <Button as="a" className={styles.downloadButton} variant="dark" href="/files/Currículo_José_Henrique_Bauer.pdf" target="_blank" download data-aos="fade-up" data-aos-duration="1000">
           Baixar Currículo
           <Image
             className={styles.downloadIcon}

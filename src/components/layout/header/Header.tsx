@@ -32,6 +32,7 @@ export default function Header() {
             <Nav className="gap-2 gap-lg-5 mx-auto">
               <Link className={`nav-link ${styles.navLink}`} href="/#about-me">Sobre mim</Link>
               <Link className={`nav-link ${styles.navLink}`} href="/#technologies">Tecnologias</Link>
+              <Link className={`nav-link ${styles.navLink}`} href="/#education">Formações</Link>
               <Link className={`nav-link ${styles.navLink}`} href="/#projects">Projetos</Link>
             </Nav>
             <Nav className={`${styles.navIcons} gap-2 gap-lg-0`} >
