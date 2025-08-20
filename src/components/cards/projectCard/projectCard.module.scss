@@ -15,7 +15,7 @@
   background-color: transparent;
 }
 
-@media (max-height: 768px) {
+@media (max-height: 768px) and (min-width: 420px) {
   .projectImage {
     height: 200px;
   }
