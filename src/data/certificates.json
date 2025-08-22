@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "link": "/files/certificate-estacio.pdf", 
+    "imageUrl": "/certificate/estacio-thumb.png",
+    "description": "Graduação em Ciência da Computação pela Universidade Estácio de Sá (2021 - 2024)."
+  },
+  {
+    "id": 2,
+    "link": "/files/certificate-onebitcode.pdf",
+    "imageUrl": "/certificate/onebitcode-thumb.png",
+    "description": "Curso com +200h de Desenvolvedor Full Stack JavaScript pela One Bit Code (2023 - 2024)"
+  },
+  {
+    "id": 3,
+    "description": "Curso Jovem Programador do SENAC-SC com carga horária total de 440h."
+  },
+  {
+    "id": 4,
+    "link": "/files/certificate-js.pdf",
+    "imageUrl": "/certificate/js-dio-thumb.png",
+    "description": "Formação JavaScript Web Developer com 39h, oferecido pela DIO (2023)"
+  },
+  {
+    "id": 5,
+    "link": "/files/certificate-css.pdf",
+    "imageUrl": "/certificate/css-dio-thumb.png",
+    "description": "Formação CSS Web Developer com 43h, oferecido pela DIO (2023)"
+  },
+  {
+    "id": 6,
+    "link": "/files/certificate-html.pdf",
+    "imageUrl": "/certificate/html-dio-thumb.png",
+    "description": "Formação HTML Web Developer com 21h, oferecido pela DIO (2023)"
+  },
+  {
+    "id": 7,
+    "link": "/files/certificate-logicamente-pro.pdf",
+    "imageUrl": "/certificate/logicamente-thumb.png",
+    "description": "Curso Logicamente PRO (Lógica de Programação) com 50h (2022)"
+  }
+]
