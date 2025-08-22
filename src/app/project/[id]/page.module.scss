@@ -14,10 +14,9 @@
   margin: 0 auto;
 }
 
-
 .link {
   border: 1px solid #000;
-  padding: 1rem;
+  padding: .5rem;
   gap: 1rem;
 
   p {
@@ -84,5 +83,15 @@
 @media screen and (max-width: 1300px) {
   .videoWrapper {
     max-width: 700px;
+  }
+}
+
+@media (max-height: 768px) and (min-width: 768px) {
+  .imageWrapper {
+    max-width: 500px;
+  }
+
+  .videoWrapper {
+    max-width: 600px;
   }
 }
