@@ -1,9 +1,10 @@
 [
   {
     "id": 1,
-    "link": "/files/certificate-estacio.pdf", 
-    "imageUrl": "/certificate/estacio-thumb.png",
-    "description": "Graduação em Ciência da Computação pela Universidade Estácio de Sá (2021 - 2024)."
+    "link": "", 
+    "imageUrl": "",
+    "description": "Graduação em Ciência da Computação pela Universidade Estácio de Sá (2021 - 2024).",
+    "sensitiveData": true
   },
   {
     "id": 2,

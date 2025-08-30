@@ -36,7 +36,6 @@ export default function ProjectCard({ project }: Props) {
         className={styles.projectImage}
         width={400}
         height={250}
-        quality={100}
       />
       <Card.Body className="d-flex flex-column align-items-start justify-content-between">
         <Card.Title>

@@ -61,7 +61,9 @@ export default function EducationSection() {
                     <div className={styles.noImage}>
                       Certificado Indisponível.
                       <br />
-                      Curso em Andamento
+                      {certificate.sensitiveData ? "Contém dados sensíveis" : (
+                        "Curso em Andamento"
+                      )}
                     </div>
                   )}
                   <p className={styles.description}>
