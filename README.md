@@ -1,4 +1,4 @@
-<h1 align="center">Portfólio- 2025</h1>
+<h1 align="center">Portfólio</h1>
 
 <p align="center">Site desenvolvido para usar como portfólio pessoal. Nele há informações sobre mim, tecnologias que eu domino, três projetos que eu desenvolvi e meu contato.</p>
 
