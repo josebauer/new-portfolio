@@ -56,6 +56,12 @@ export default function ProjectDetails() {
                 <p>Projeto funcionando</p>
               </Link>
             ) : ""}
+            {project.apk ? (
+              <Link className={`${styles.link} btn`}  target="_blank" href={project.apk} download data-aos="zoom-in">
+                <Image src="/icons/download-black.svg" height={30} width={30} alt="Baixar aplicativo" />
+                <p>Baixar aplicativo</p>
+              </Link>
+            ) : ""}
           </div>
         </Container>
       </section>

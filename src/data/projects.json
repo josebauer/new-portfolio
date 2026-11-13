@@ -86,14 +86,16 @@
       "Adicionar, editar e remover receitas e categorias",
       "Categorizar as receitas",
       "Pesquisar receitas e categorias cadastradas",
-      "Ajuste automático de ingredientes"
+      "Ajuste automático de ingredientes",
+      "Importação e exportação da base de dados de receitas"
     ],
     "imagesUrl": ["/images/receitas-na-mao.jpg", "/images/demonstration-recipe-app.png"],
     "gitHubUrl": [
       "https://github.com/josebauer/recipe_app"
     ],
     "demonstrationUrl": "",
-    "demonstrationUrlVideo": ""
+    "demonstrationUrlVideo": "",
+    "apk": "/apk/recipe_app.apk"
   },
   {
     "id": 4,

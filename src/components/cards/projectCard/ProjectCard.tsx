@@ -16,6 +16,7 @@ export type ProjectType = {
   imagesUrl: string[]
   gitHubUrl: string[]
   demonstrationUrl?: string
+  apk?: string
 }
 
 interface Props {
@@ -62,6 +63,12 @@ export default function ProjectCard({ project }: Props) {
           {project.demonstrationUrl && (
             <Link target="_blank" href={project.demonstrationUrl}>
               <Image src="/icons/network.svg" height={25} width={25} alt="Ver projeto funcionando" />
+            </Link>
+          )}
+
+          {project.apk && (
+            <Link target="_blank" href={project.apk} download>
+              <Image src="/icons/download-black.svg" height={30} width={30} alt="Baixar APK" />
             </Link>
           )}
         </div>
