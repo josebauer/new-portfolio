@@ -22,7 +22,7 @@ Praticar o desenvolvimento web, usando meus conhecimentos para criar um site do 
 - Responsividade
 - Cards com imagens e informações dos projetos
 - Slide dos cards para telas menores
-- Página de projetos com dados dinâmicos, onde há a demonstração, links para o repositório no GitHub, link do projeto funcionando e descrição detalhada
+- Página de projetos com dados dinâmicos, onde há a vídeos de demonstração, links para o repositório no GitHub, link do projeto funcionando na web, descrição detalhada, além da possibilidade de baixar APK de aplicativos presentes no portfóliio.
 
 ## 🌐 Demonstração
 Acesse o resultado final do projeto <a href="https://josebauer.com.br">clicando aqui</a>.
