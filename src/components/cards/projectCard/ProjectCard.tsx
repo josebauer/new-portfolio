@@ -77,16 +77,16 @@ export default function ProjectCard({ project }: Props) {
           <Modal.Header closeButton className="border-0">
             <Modal.Title>Ver repositório</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
-            <Link href={project.gitHubUrl[0]} target="_blank" className="btn btn-outline-primary w-100 my-2">
+          <Modal.Body className="d-flex flex-column align-items-center gap-2">
+            <Link href={project.gitHubUrl[0]} target="_blank" className="btn btn-outline-dark w-50 my-2">
               Front-end
             </Link>
-            <Link href={project.gitHubUrl[1]} target="_blank" className="btn btn-outline-primary w-100 my-2">
+            <Link href={project.gitHubUrl[1]} target="_blank" className="btn btn-outline-dark w-50 my-2">
               Back-end
             </Link>
           </Modal.Body>
           <Modal.Footer className="border-0">
-            <Button variant="secondary" onClick={closeModal}>Fechar</Button>
+            <Button className="btn-dark" variant="secondary" onClick={closeModal}>Fechar</Button>
           </Modal.Footer>
         </Modal>
       </Card.Body>
