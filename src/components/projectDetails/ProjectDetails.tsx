@@ -9,6 +9,7 @@ import { useParams } from "next/navigation";
 import projects from "@/data/projects.json";
 import styles from "./projectDetails.module.scss";
 import AOS from "aos";
+import type { CSSProperties } from "react";
 
 export default function ProjectDetails() {
   useEffect(() => {
@@ -26,12 +27,14 @@ export default function ProjectDetails() {
 
   return (
     <main>
-      <section>
-        <Container className={styles.container}>
-          <h1 className="text-center" data-aos="fade-down">{project.name}</h1>
-          <div className={styles.imageWrapper} data-aos="fade-up">
-            <Image src={project.imagesUrl[1]} alt={project.name} fill quality={100} sizes="(max-width: 768px) 100vw, 768px" style={{ objectFit: "contain" }} />
-          </div>
+      <section className="d-flex flex-column gap-4 justify-content-between">
+        <div 
+        className={styles.background}
+        style={{
+          "--background-desktop": `url("${project.backgroundDesktop}")`,
+          "--background-mobile": `url("${project.backgroundMobile}")`,
+        } as CSSProperties}>
+        </div>
           <div className="d-flex justify-content-center flex-wrap gap-4">
             {project.gitHubUrl.length > 1 ? (
               <div className="d-flex justify-content-center flex-wrap gap-4">
@@ -63,10 +66,10 @@ export default function ProjectDetails() {
               </Link>
             ) : ""}
           </div>
-        </Container>
       </section>
       <section>
         <Container className="pb-5">
+          <h1 className="text-center mb-5 mt-md-5" data-aos="fade-right">{project.name}</h1>
           <p className={styles.subtitle} data-aos="fade-right" data-aos-duration="1000">Descrição do projeto:</p>
           <p className={styles.longDescription} data-aos="fade-right">{project.longDescription}</p>
           <p className={`${styles.subtitle} mt-4`} data-aos="fade-right" data-aos-duration="1000">Tecnologias utilizadas:</p>

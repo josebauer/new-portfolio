@@ -31,7 +31,9 @@
       "Endpoints da API para conexão com o front-end",
       "Autenticação"
     ],
-    "imagesUrl": ["/images/real-estate-website.png", "/images/demonstration-real-estate.png"],
+    "imageCardUrl": "/images/real-estate-website.png",
+    "backgroundDesktop": "/images/demonstration-real-estate.png",
+    "backgroundMobile": "/images/demonstration-real-estate-mobile.png",
     "gitHubUrl": [
       "https://github.com/josebauer/real-estate-website_frontend",
       "https://github.com/josebauer/real-estate-website_backend"
@@ -63,7 +65,9 @@
       "Salvamento dos dados (itens) no navegador do usuário",
       "Responsividade"
     ],
-    "imagesUrl": ["/images/dashboard.png", "/images/demonstration-stock-manager.png"],
+    "imageCardUrl": "/images/dashboard.png",
+    "backgroundDesktop": "/images/demonstration-stock-manager.png",
+    "backgroundMobile": "/images/demonstration-stock-manager-mobile.png",
     "gitHubUrl": [
       "https://github.com/josebauer/gestor-de-estoque"
     ],
@@ -89,7 +93,9 @@
       "Ajuste automático de ingredientes",
       "Importação e exportação da base de dados de receitas"
     ],
-    "imagesUrl": ["/images/receitas-na-mao.jpg", "/images/demonstration-recipe-app.png"],
+    "imageCardUrl": "/images/receitas-na-mao.jpg",
+    "backgroundDesktop": "/images/demonstration-recipe-app.png",
+    "backgroundMobile": "/images/demonstration-recipe-app-mobile.png",
     "gitHubUrl": [
       "https://github.com/josebauer/recipe_app"
     ],
@@ -116,7 +122,9 @@
       "Filtrar pedidos por status",
       "Ver relatórios de produtos e pedidos"
     ],
-    "imagesUrl": ["/images/sistema-comandas.PNG", "/images/demonstration-orders.png"],
+    "imageCardUrl": "/images/sistema-comandas.PNG",
+    "backgroundDesktop": "/images/demonstration-orders.png",
+    "backgroundMobile": "/images/demonstration-orders-mobile.png",
     "gitHubUrl": [
       "https://github.com/josebauer/sistema-comandas"
     ],
